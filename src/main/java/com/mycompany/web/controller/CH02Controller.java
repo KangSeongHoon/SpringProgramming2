@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CH02Controller {
 	private static final Logger logger = LoggerFactory.getLogger(CH02Controller.class);
 
-	
+	//
 		@RequestMapping("/content")
 		public String content() {
 			logger.debug("실행");
